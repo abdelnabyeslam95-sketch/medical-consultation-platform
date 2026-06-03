@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* تعريف الألوان والهوية البصرية للموقع */
+@theme {
+  --color-brand-light: #e0f2fe; /* sky-100 */
+  --color-brand: #0284c7;       /* sky-600 */
+  --color-brand-dark: #0369a1;  /* sky-700 */
+  --color-accent: #10b981;      /* emerald-500 */
+}
+
+body {
+  direction: rtl;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f8fafc;
+}
